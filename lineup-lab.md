@@ -30,7 +30,7 @@ First, I want to be clear about what this app does NOT do. It never questions wh
 You pick a team and a game, and the app shows you the starting nine, the opposing starter, and the final score. Then it projects how many runs that lineup should have scored. Drag a hitter to a new spot in the order and the number updates right away.
 
 <figure class="ll-fig">
-  <img src="{{ '/assets/img/lineup-lab/01-main-view.png' | relative_url }}" alt="Lineup Lab main view with the lineup and run tiles">
+  <img src="{{ '/01-main-view.png' | relative_url }}" alt="Lineup Lab main view with the lineup and run tiles">
   <figcaption>The main view. Drag any hitter and the run tiles compare the new order to the real one.</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Next, the app plays the game out one batter at a time, using real MLB data to de
 All of this runs on every pitch thrown from 2024 through 2026, pulled from Baseball Savant and checked game by game against the official MLB box scores. And every projection only uses data from **before** that game. If I'm looking at a game on September 10th, the model has no idea what happened that day or any day after it.
 
 <figure class="ll-fig">
-  <img src="{{ '/assets/img/lineup-lab/02-hitter-breakdown.png' | relative_url }}" alt="Hitter breakdown tab">
+  <img src="{{ '/02-hitter-breakdown.png' | relative_url }}" alt="Hitter breakdown tab">
   <figcaption>How one hitter's projection gets built, from league averages all the way to today's matchup.</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ The Hitter breakdown tab is probably my favorite part. It shows how one hitter's
 Take Arizona at San Diego on September 27th. The Diamondbacks lost 9-4 at Petco Park against Randy Vásquez. Their lineup that day projected for **4.62 runs**, with a 5.2% chance of getting shut out and a 46.1% chance of scoring five or more. The model expected Vásquez to face about 21.2 batters before handing it to the bullpen... and he faced exactly 21.
 
 <figure class="ll-fig">
-  <img src="{{ '/assets/img/lineup-lab/03-optimal-lineup.png' | relative_url }}" alt="Optimal lineup tab for Arizona at San Diego">
+  <img src="{{ '/03-optimal-lineup.png' | relative_url }}" alt="Optimal lineup tab for Arizona at San Diego">
   <figcaption>The best order the app found for Arizona at San Diego on September 27th, compared to the one they actually used.</figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ So I changed the question. Instead of asking how far each order was from perfect
 I still kept the runs lost number, though, because the two answer different questions. Gain captured tells you how well a team ordered the nine guys it had. Runs lost tells you what that actually cost them.
 
 <figure class="ll-fig">
-  <img src="{{ '/assets/img/lineup-lab/04-season-chart.png' | relative_url }}" alt="Season chart of gain captured by team">
+  <img src="{{ '/04-season-chart.png' | relative_url }}" alt="Season chart of gain captured by team">
   <figcaption>How much of the available gain each team captured in 2026. Cincinnati led, Milwaukee finished last.</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ I don't think a tool like this should make the lineup card. I think it should st
 - **Looking back**, seeing which kinds of games (lefty starters, certain parks, short outings) are where the order matters most.
 
 <figure class="ll-fig">
-  <img src="{{ '/assets/img/lineup-lab/05-model-check.png' | relative_url }}" alt="Model check tab">
+  <img src="{{ '/05-model-check.png' | relative_url }}" alt="Model check tab">
   <figcaption>Testing the model on games it hadn't seen. Projected runs line up closely with what actually happened.</figcaption>
 </figure>
 
