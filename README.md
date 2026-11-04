@@ -1,2 +1,2 @@
 # jakekleiman.github.io
-Personal portfolio: Baseball nalytics projects and articles
+Personal portfolio: Baseball Analytics projects and articles
