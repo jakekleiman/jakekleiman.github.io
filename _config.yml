@@ -1,3 +1,9 @@
 title: Jake Kleiman
-description: Baseball analytics projects and articles
-theme: minima
+description: Baseball analytics, strategy and player evaluation
+author: Jake Kleiman
+email: jmkleiman@icloud.com
+linkedin: https://www.linkedin.com/in/jake-kleiman
+github: https://github.com/jakekleiman
+app_url: https://01a1a807-7a57-1cec-3b91-855db5405ced.share.connect.posit.cloud/
+exclude:
+  - README.md

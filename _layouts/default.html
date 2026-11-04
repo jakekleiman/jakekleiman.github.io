@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != "Home" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  {% if page.og_image %}<meta property="og:image" content="{{ page.og_image | absolute_url }}">{% endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">JK</span><span class="brand-name">Jake Kleiman</span></a>
+      <nav class="nav-links">
+        <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="{{ '/resume/' | relative_url }}" class="{% if page.url == '/resume/' %}active{% endif %}">Resume</a>
+        <a href="{{ '/projects/' | relative_url }}" class="{% if page.url == '/projects/' or page.layout == 'article' %}active{% endif %}">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© {{ site.time | date: "%Y" }} Jake Kleiman</span>
+      <span class="footer-links">
+        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

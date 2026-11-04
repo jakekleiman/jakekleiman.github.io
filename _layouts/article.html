@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="article">
+  <a class="back" href="{{ '/projects/' | relative_url }}">← All projects</a>
+  {% if page.tag %}<div class="eyebrow">{{ page.tag }}</div>{% endif %}
+  <h1 class="article-title">{{ page.title }}</h1>
+  <p class="byline">{{ page.date | date: "%B %-d, %Y" }} · Jake Kleiman</p>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

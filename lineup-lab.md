@@ -1,21 +1,11 @@
 ---
-layout: default
+layout: article
 title: "The Nine Are Picked. Now What? Grading How MLB Teams Order Their Lineups"
 description: "I built an app that grades how well every MLB team ordered its lineups in 2026."
+date: 2026-11-04
+tag: "Baseball strategy · R Shiny"
 permalink: /lineup-lab/
 ---
-
-<style>
-  .ll-button { display:inline-block; padding:10px 18px; margin:8px 0 20px; background:#1f4e79; color:#fff !important; border-radius:6px; font-weight:600; text-decoration:none !important; }
-  .ll-button:hover { background:#163a5a; }
-  .ll-fig { margin:20px 0; }
-  .ll-fig img { width:100%; border:1px solid #ddd; border-radius:6px; }
-  .ll-fig figcaption { font-size:0.9em; font-style:italic; color:#666; margin-top:6px; }
-</style>
-
-# The Nine Are Picked. Now What? Grading How MLB Teams Order Their Lineups
-
-*November 4, 2026 · Jake Kleiman*
 
 <a class="ll-button" href="https://01a1a807-7a57-1cec-3b91-855db5405ced.share.connect.posit.cloud/" target="_blank" rel="noopener">Launch Lineup Lab ↗</a>
 
