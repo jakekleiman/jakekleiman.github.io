@@ -9,13 +9,13 @@ permalink: /projects/
 <p class="page-sub">Tools and write-ups on baseball strategy, player evaluation and the decisions teams make every day.</p>
 
 <div class="project">
-  <a class="project-img" href="{{ '/play-calling-predictability/' | relative_url }}"><img src="{{ '/assets/img/predictability/05-teams.png' | relative_url }}" alt="Every NFL team-season, predictability vs. EPA per play"></a>
+  <a class="project-img project-img--fit" href="{{ '/play-calling-predictability/' | relative_url }}"><img src="{{ '/assets/img/predictability/thumb-teams.png' | relative_url }}" alt="Every NFL team-season, predictability vs. EPA per play"></a>
   <div class="project-body">
     <div class="meta">Nov 2026 · R · nflverse</div>
     <h2><a href="{{ '/play-calling-predictability/' | relative_url }}">They Saw It Coming: What Predictable Play-Calling Costs an NFL Offense</a></h2>
     <p>A model that calls run or pass like a defensive coordinator, using only what a defense sees before the snap. Predictable runs get punished because defenses load the box, while predictable passes barely suffer.</p>
     <div class="chips" style="margin-bottom:22px">
-      <span class="chip">R</span><span class="chip">XGBoost</span><span class="chip">Regression</span><span class="chip">nflverse</span>
+      <span class="chip">R</span><span class="chip">Regression</span><span class="chip">nflverse</span>
     </div>
     <div class="btn-row" style="margin-top:0">
       <a class="btn btn-primary" href="{{ '/play-calling-predictability/' | relative_url }}">Read the article</a>
