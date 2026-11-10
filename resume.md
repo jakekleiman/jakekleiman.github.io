@@ -45,7 +45,7 @@ permalink: /resume/
         <div class="when">May 2026 – Aug 2026</div>
       </div>
       <ul>
-        <li>Built analytical reports through SQL, R and Excel to provide data-driven recommendations on playing rules, game pace, competitive balance and on-field performance trends</li>
+        <li>Integrated multiple datasets spanning 45+ years of MLB data (1980–present) using SQL, R and Excel to evaluate proposed and implemented playing rules, delivering data-driven recommendations on game pace, competitive balance and on-field performance trends to baseball operations executives</li>
         <li>Defended the club's position in a simulated MLB salary arbitration hearing by analyzing player performance metrics, contract comparables and valuation arguments</li>
       </ul>
     </div>
