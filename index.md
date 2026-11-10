@@ -6,8 +6,8 @@ title: Home
 <section class="hero">
   <div>
     <div class="status"><span class="dot"></span>Open to roles in professional baseball</div>
-    <h1>Jake Kleiman<br><span class="grad">Baseball Analytics</span></h1>
-    <p class="lead">I'm a baseball analyst who graduated from Syracuse University in May 2026 with a B.S. in Sport Analytics and a minor in Sport Management. Most recently, I worked in Baseball Operations at the MLB Commissioner's Office, building reports on playing rules, game pace and on-field trends.</p>
+    <h1>Jake Kleiman<br><span class="grad">Sports Analytics</span></h1>
+    <p class="lead">I'm a sports analyst, focused mostly on baseball, who graduated from Syracuse University in May 2026 with a B.S. in Sport Analytics and a minor in Sport Management. Most recently, I worked in Baseball Operations at the MLB Commissioner's Office, building reports on playing rules, game pace and on-field trends.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">See my work →</a>
       <a class="btn" href="{{ '/resume/' | relative_url }}">Resume</a>
@@ -76,7 +76,7 @@ title: Home
 
 <section class="contact">
   <div>
-    <h2>Let's talk baseball.</h2>
+    <h2>Let's talk ball.</h2>
     <p>The best way to reach me is email or LinkedIn.</p>
   </div>
   <div class="btn-row" style="margin-top:0">
