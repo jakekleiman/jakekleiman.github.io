@@ -6,7 +6,7 @@ permalink: /projects/
 
 <div class="eyebrow">Projects &amp; articles</div>
 <h1 class="page-title">Work</h1>
-<p class="page-sub">Tools and write-ups on strategy, player evaluation and the decisions teams make every day. Mostly baseball, with some football along the way.</p>
+<p class="page-sub">Tools and write-ups on strategy, player evaluation and the decisions teams make every day. Mostly baseball, with other sports mixed in.</p>
 
 <div class="project">
   <a class="project-img project-img--fit" href="{{ '/play-calling-predictability/' | relative_url }}"><img src="{{ '/assets/img/predictability/thumb-teams.png' | relative_url }}" alt="Every NFL team-season, predictability vs. EPA per play"></a>
