@@ -9,6 +9,21 @@ permalink: /projects/
 <p class="page-sub">Tools and write-ups on strategy, player evaluation and the decisions teams make every day. Mostly baseball, with other sports mixed in.</p>
 
 <div class="project">
+  <a class="project-img project-img--fit" href="{{ '/stolen-bases/' | relative_url }}"><img src="{{ '/assets/img/stolen-bases/02-win-probability.png' | relative_url }}" alt="Break-even rate for stealing second by inning and score"></a>
+  <div class="project-body">
+    <div class="meta">Nov 2026 · R · Statcast</div>
+    <h2><a href="{{ '/stolen-bases/' | relative_url }}">When to Attempt a Stolen Base</a></h2>
+    <p>Five questions to ask before giving the steal sign, answered with every stolen base attempt from 2026. The outs, the score and especially the pitcher set the odds, and teams ran least in the one spot where stealing paid off most.</p>
+    <div class="chips" style="margin-bottom:22px">
+      <span class="chip">R</span><span class="chip">Run expectancy</span><span class="chip">Win probability</span><span class="chip">Baseball Savant</span>
+    </div>
+    <div class="btn-row" style="margin-top:0">
+      <a class="btn btn-primary" href="{{ '/stolen-bases/' | relative_url }}">Read the article</a>
+    </div>
+  </div>
+</div>
+
+<div class="project">
   <a class="project-img project-img--fit" href="{{ '/play-calling-predictability/' | relative_url }}"><img src="{{ '/assets/img/predictability/thumb-teams.png' | relative_url }}" alt="Every NFL team-season, predictability vs. EPA per play"></a>
   <div class="project-body">
     <div class="meta">Nov 2026 · R · nflverse</div>
