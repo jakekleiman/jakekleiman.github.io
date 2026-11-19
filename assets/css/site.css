@@ -187,7 +187,9 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; }
 .prose li::marker { color: var(--accent); }
 .ll-fig { margin: 32px 0; }
 .ll-fig img { width: 100%; border: 1px solid var(--line); border-radius: 12px; display: block; }
-.ll-fig figcaption { font-size: 14px; color: var(--muted); margin-top: 10px; font-style: italic; }
+.ll-fig figcaption { font-size: 14px; line-height: 1.5; color: var(--muted); margin: 12px auto 0; max-width: 640px; text-align: center; font-style: italic; }
+.dek { font-size: 20px; color: var(--muted); margin: -8px 0 32px; }
+.prose td.hl { color: var(--accent); font-weight: 700; background: rgba(61, 220, 151, .10); }
 .prose table { width: 100%; border-collapse: collapse; margin: 24px 0 32px; font-size: 16px; }
 .prose th, .prose td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); }
 .prose th { color: var(--text); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
