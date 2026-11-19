@@ -195,4 +195,5 @@ The main results use every pitch and steal attempt from 2026. The checks on what
 - **Less data in rare spots.** Most of the numbers in this article come from thousands of steal attempts. But steals late in close games, or on three-ball counts, are only a small share of those. With fewer plays to learn from, those numbers are less certain. Adding the 2023 to 2025 seasons to those parts of the analysis would give them more plays to go on. I kept them to 2026 on purpose, though. This article is about how the running game looked this season, and earlier years include seasons when teams and pitchers were still adjusting to the new rules.
 - **Only a few seasons to compare.** The year-to-year checks compare 2023 with 2024, 2024 with 2025 and 2025 with 2026. For teams, that's about 90 comparisons, so a number like 0.10 could reasonably be a bit higher or lower. Each new season will help, and minor league data would help judge young runners with little MLB history.
 
-**Sources:** [MLB Stats API](https://statsapi.mlb.com/) and [Baseball Savant](https://baseballsavant.mlb.com/)
+**Sources:** [MLB Stats API](https://statsapi.mlb.com/) and [Baseball Savant](https://baseballsavant.mlb.com/)  
+**Code:** [github.com/jakekleiman/stolen-bases](https://github.com/jakekleiman/stolen-bases)
