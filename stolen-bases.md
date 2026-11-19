@@ -45,7 +45,7 @@ One limit: this table counts runs, and it treats every inning the same. Early in
 
 ## 1. How many outs are there?
 
-In the last section, a runner on first with nobody out had to be safe at least **68%** of the time for a steal to be worth it. That number is the break-even rate. Do the same math with one or two outs and the break-even rate rises to about **74%**. With more outs, getting to second is worth less, but getting thrown out still costs a lot.
+In the last section, a runner on first with nobody out had to be safe at least **68%** of the time for a steal to be worth it. That number is the break-even rate. Do the same math with one or two outs and the break-even rate rises to about **73% to 74%**. With more outs, getting to second is worth less, but getting thrown out still costs a lot.
 
 The chart below compares those break-even rates (red diamonds) with how often runners were actually safe (blue dots). The blue line around each dot is the margin of error. If the line doesn't reach the red diamond, the difference is real and not just luck.
 
@@ -58,7 +58,7 @@ The chart below compares those break-even rates (red diamonds) with how often ru
 - **One out:** right at the break-even rate. No real gain.
 - **Two outs:** right at the break-even rate too.
 
-One more thing stands out: the one situation where stealing clearly paid off is the one teams used least. With a runner on first, teams ran less often with nobody out than with one or two outs. And it wasn't because teams were saving those steals for their best chances. The runners who went with nobody out were just as fast, faced the same kinds of pitchers, and had the same predicted chance of success as the runners who went with two outs. They were safe at almost the same rate, too: 75.2% with nobody out, 73.5% with one out and 74.3% with two outs. The only thing that changed was the break-even rate, and it was lowest with nobody out. That's a strong sign teams could run more in that spot.
+One more thing stands out: the one situation where stealing clearly paid off is the one teams used least. With a runner on first, teams ran less often with nobody out than with one or two outs. And it wasn't because teams were saving those steals for their best chances. The runners who went with nobody out were just as fast, faced the same kinds of pitchers and had the same predicted chance of success as the runners who went with two outs. They were safe at almost the same rate, too: 75.2% with nobody out, 73.5% with one out and 74.3% with two outs. The only thing that changed was the break-even rate, and it was lowest with nobody out. That's a strong sign teams could run more in that spot.
 
 ## 2. What's the score, the inning and the count?
 
@@ -75,7 +75,7 @@ For the first six innings, the lines barely move. The break-even rate stays betw
 - **Down one:** it barely changes. A single run ties the game, so the steal is about as useful as it is early on.
 - **Down two:** the break-even rate shoots up, to **92%** in the 9th with one out and 98% with two outs. You need two runs, so one runner on second doesn't help much, and an out is a disaster.
 
-Down three or more in the 9th with two outs, no success rate makes a steal worth it.
+Down three or more in the 9th with two outs, almost no success rate makes a steal worth it.
 
 The count matters too, but mostly once there are outs. With nobody out, almost every count keeps the break-even rate in the 60s. With one or two outs, three-ball counts push it into the high 80s. The reason: ball four would send the runner to second anyway, so the steal only helps if the pitch is a strike.
 
@@ -99,7 +99,7 @@ I estimated how many attempts every pitcher *should* have faced, given the runne
   <figcaption>Figure 4. The eight pitchers runners avoided most and the eight they ran on most, relative to expectations (minimum 300 chances for a runner to go). Grey dots are expected attempts; blue dots are actual attempts.</figcaption>
 </figure>
 
-The gap between pitchers is huge. Michael McGreevy faced just 3 attempts when about 22 were expected. Luke Weaver and Kai-Wei Teng didn't face a single one. On the other end, runners went 35 times against Dylan Cease when about 14 were expected, 28 times against Eury Pérez when about 9 were expected, and 14 times against José Alvarado when fewer than 5 were.
+The gap between pitchers is huge. Michael McGreevy faced just 3 attempts when about 22 were expected. Luke Weaver and Kai-Wei Teng didn't face a single one. On the other end, runners went 35 times against Dylan Cease when about 14 were expected, 28 times against Eury Pérez when about 9 were expected and 14 times against José Alvarado when fewer than 5 were.
 
 The pitcher doesn't just decide whether runners go. He decides whether they make it. Holding everything else equal, a pitcher one standard deviation worse at holding runners raised a runner's chance of being safe by about **7 points**. A slower catcher pop time added about 4 points. A runner being one standard deviation faster added about 3. On a stolen base attempt, the man on the mound mattered more than the catcher's arm and more than the runner's legs.
 
@@ -116,7 +116,7 @@ Runners know it, and the chart below shows how much it changes their behavior.
   <figcaption>Figure 5. How often runners took off, and how often they were safe, by how many pickoff throws or step-offs the pitcher had already used in the plate appearance.</figcaption>
 </figure>
 
-**Left side: how often runners went.** When the pitcher hadn't stepped off or thrown over yet, runners took off on 1.0% of pitches. After one, that rose to 3.8%. After two, it jumped to **7.3%**, about seven times as often as when he hadn't used any. Nothing else in the data moved runners like that.
+**Left side: how often runners went.** When the pitcher hadn't stepped off or thrown over yet, runners took off on 1.0% of pitches. After one, that rose to 3.8%. After two, it jumped to **7.3%**, about seven times as often as when he hadn't used any. Nothing else I looked at moved runners like that.
 
 **Right side: how often they made it.** Runners were safe only slightly more often after two disengagements: 77%, compared with 74% to 75% before. That's partly because so many more runners went. Once the pitcher ran out of throws, runners who'd normally stay put took off too, and the bigger, less selective group kept the success rate from climbing much.
 
@@ -138,7 +138,7 @@ To answer it, I split every steal into two parts. A model estimated each runner'
 
 Otto Lopez led baseball at +4.2 runs (28-for-33), followed by Pete Crow-Armstrong, José Ramírez and Bryson Stott, who went 21-for-21. But look at how they got there. Most of the leaders were beating the odds. Nasim Nuñez was the exception: almost all of his +2.9 came from picking good spots.
 
-That difference matters, because only one of the two carries over more consistently. I ran the whole analysis for 2023, 2024, and 2025 too, and checked whether runners who were good at each part one season were good at it again the next. A correlation near 1 means the skill repeats. Near 0 means it was mostly luck.
+That difference matters, because only one of the two carries over more consistently. I ran the whole analysis for 2023, 2024 and 2025 too, and checked whether runners who were good at each part one season were good at it again the next. A correlation near 1 means the skill repeats. Near 0 means it was mostly luck.
 
 | What I measured (runners) | Year-to-year correlation (2023 to 2026) | Repeats? |
 | --- | --- | --- |
@@ -165,16 +165,17 @@ Everything above is about one runner going. When two went at once, the numbers l
 
 | Play | Plays | Runs per play | Total runs |
 | --- | --- | --- | --- |
+| Standard steal (one runner) | 3,386 | +0.02 | +74.0 |
 | Double or triple steal | 161 | +0.28 | +45.6 |
 | First-and-third steal of 2nd | 546 | +0.03 | +14.3 |
 
-In just 161 plays, double steals added more than half as many runs as the 3,386 standard steals combined.
+In just 161 plays, double steals added more than half as many runs as the 3,386 standard steals combined. Per play, they were worth more than ten times as much. So with two runners on, sending both may be worth a look more often than teams think.
 
 ## So when do you give the green light?
 
 Every steal decision comes down to one comparison: **is this runner's chance of being safe, right now, higher than the break-even rate for this spot?** The five questions are just the way to fill in both sides of that comparison.
 
-**Step 1: Find the break-even rate.** Start with the outs. Stealing second needs about 68% with nobody out and about 74% with one or two outs. Late in a close game, adjust for the score: a tie game pulls it down toward 55% to 60%, and trailing by two or more pushes it into the 80s or 90s. With one or two outs and three balls on the hitter, it climbs into the high 80s too.
+**Step 1: Find the break-even rate.** Start with the outs. Stealing second needs about 68% with nobody out and about 73% to 74% with one or two outs. Late in a close game, adjust for the score: a tie game pulls it down toward 55% to 60%, and trailing by two or more pushes it into the 80s or 90s. With one or two outs and three balls on the hitter, it climbs into the high 80s too.
 
 **Step 2: Estimate this runner's chance of being safe.** The league average is about 74%. Then adjust for the matchup. The pitcher matters most: a pitcher who's bad at holding runners is worth about 7 points, more than a slow catcher (about 4) or an extra step of speed (about 3). Judge the runner by where he's chosen to go in the past, not by last year's success rate, because the first repeats and the second mostly doesn't.
 
@@ -188,10 +189,10 @@ If there's one place teams are leaving value on the table, though, it's with nob
 
 The main results use every pitch and steal attempt from 2026. The checks on what carries over from one year to the next add 2023, 2024 and 2025. Nothing goes back further than 2023, because that's when the disengagement limit and today's bigger bases took effect. Seasons before then were played under different rules, so mixing them in would compare two different running games. Even so, public data only goes so far. Here's what this can't see, and what would make it better:
 
-- **What happened on each pitch.** Runner jumps and pitcher holds come from season averages, not the individual play. Pitch-by-pitch tracking of each runner's lead, jump, and speed, plus each pitcher's time to the plate, would sharpen the success estimates a lot. Teams have this. The public doesn't.
-- **The catcher's throw on each play.** Pop time is also a season average. Knowing each throw's exchange time, accuracy, and arm strength would separate a good catcher from a lucky one.
+- **What happened on each pitch.** Runner jumps and pitcher holds come from season averages, not the individual play. Pitch-by-pitch tracking of each runner's lead, jump and speed, plus each pitcher's time to the plate, would sharpen the success estimates a lot. Teams have this. The public doesn't.
+- **The catcher's throw on each play.** Pop time is also a season average. Knowing each throw's exchange time, accuracy and arm strength would separate a good catcher from a lucky one.
 - **Who made the call.** On about 15% of attempts, the batter swung, so some were hit-and-runs or designed plays, not the runner's choice. Knowing which steals were called from the dugout would show whether it's runners or coaches who pick good spots.
-- **Less data in rare spots.** Most of the numbers in this article come from thousands of steal attempts. But steals late in close games, or on three-ball counts, are only a small share of those. With fewer plays to learn from, those numbers are less certain. Adding the 2023 to 2025 seasons to those parts of the analysis would give them more plays to go on. I kept them to 2026 on purpose though. This article is about how the running game looked this season, and earlier years include seasons when teams and pitchers were still adjusting to the new rules.
-- **Only a few seasons to compare.** The year-to-year checks compare 2023 with 2024, 2024 with 2025, and 2025 with 2026. For teams, that's about 90 comparisons, so a number like 0.10 could reasonably be a bit higher or lower. Each new season will help, and minor league data would help judge young runners with little MLB history.
+- **Less data in rare spots.** Most of the numbers in this article come from thousands of steal attempts. But steals late in close games, or on three-ball counts, are only a small share of those. With fewer plays to learn from, those numbers are less certain. Adding the 2023 to 2025 seasons to those parts of the analysis would give them more plays to go on. I kept them to 2026 on purpose, though. This article is about how the running game looked this season, and earlier years include seasons when teams and pitchers were still adjusting to the new rules.
+- **Only a few seasons to compare.** The year-to-year checks compare 2023 with 2024, 2024 with 2025 and 2025 with 2026. For teams, that's about 90 comparisons, so a number like 0.10 could reasonably be a bit higher or lower. Each new season will help, and minor league data would help judge young runners with little MLB history.
 
 **Sources:** [MLB Stats API](https://statsapi.mlb.com/) and [Baseball Savant](https://baseballsavant.mlb.com/)
